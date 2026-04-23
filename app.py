@@ -28,8 +28,8 @@ if not st.session_state["autenticado"]:
 
 # CONFIGURAÇÃO DA API DO GEMINI
 # Aqui você pode deixar fixo ou pedir para inserir na barra lateral
-API_KEY = "SUA_API_KEY_DO_GOOGLE_STUDIO"
-genai.configure(api_key=API_KEY)
+API_KEY = "AIzaSyDl0rM5qwZUnEsUKyWTnAgo4opUNmHvI_4"
+genai.configure(api_key=AIzaSyDl0rM5qwZUnEsUKyWTnAgo4opUNmHvI_4)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # MENU LATERAL
